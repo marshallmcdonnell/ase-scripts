@@ -704,8 +704,10 @@ def write_lammps_data(filename, atoms, atom_types, comment=None, cutoff=None,
             print (Z1, Z2), bond_mask.sum()
             for (I, J) in zip(i_list[bond_mask], j_list[bond_mask]):
                 #NB: LAMMPS uses 1-based indices for bond types and particle indices
-                bond = (bond_type+1, I+1, J+1)
-                bonds.append(bond)
+                if I <= J:
+                    bond = (bond_type+1, I+1, J+1)
+                    bonds.append(bond)
+                    
         print
         if len(bonds) > 0:
             fh.write('{0} bonds\n'.format(len(bonds)))
