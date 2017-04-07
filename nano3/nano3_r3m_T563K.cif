@@ -1,0 +1,88 @@
+data_global
+_chemical_name_mineral 'Nitratine'
+loop_
+_publ_author_name
+'Paul G L'
+'Pryor A W'
+_journal_name_full 'Acta Crystallographica, Section B'
+_journal_volume 28 
+_journal_year 1972
+_journal_page_first 2700
+_journal_page_last 2702
+_publ_section_title
+;
+ The study of sodium nitrate by neutron diffraction
+ Sample: T = 290 C
+;
+_database_code_amcsd 0009447
+_chemical_compound_source 'Synthetic'
+_chemical_formula_sum 'Na N O3'
+_cell_length_a 5.084
+_cell_length_b 5.084
+_cell_length_c 8.175
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 120
+_cell_volume 182.991
+_exptl_crystal_density_diffrn      2.314
+_symmetry_space_group_name_H-M 'R -3 m'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '2/3+x,1/3+y,1/3+z'
+  '1/3+x,2/3+y,2/3+z'
+  'x,x-y,z'
+  '2/3+x,1/3+x-y,1/3+z'
+  '1/3+x,2/3+x-y,2/3+z'
+  'y,x,-z'
+  '2/3+y,1/3+x,1/3-z'
+  '1/3+y,2/3+x,2/3-z'
+  '-x+y,y,z'
+  '2/3-x+y,1/3+y,1/3+z'
+  '1/3-x+y,2/3+y,2/3+z'
+  '-x,-x+y,-z'
+  '2/3-x,1/3-x+y,1/3-z'
+  '1/3-x,2/3-x+y,2/3-z'
+  '-y,-x,z'
+  '2/3-y,1/3-x,1/3+z'
+  '1/3-y,2/3-x,2/3+z'
+  'x-y,-y,-z'
+  '2/3+x-y,1/3-y,1/3-z'
+  '1/3+x-y,2/3-y,2/3-z'
+  'y,-x+y,-z'
+  '2/3+y,1/3-x+y,1/3-z'
+  '1/3+y,2/3-x+y,2/3-z'
+  '-x+y,-x,z'
+  '2/3-x+y,1/3-x,1/3+z'
+  '1/3-x+y,2/3-x,2/3+z'
+  '-x,-y,-z'
+  '2/3-x,1/3-y,1/3-z'
+  '1/3-x,2/3-y,2/3-z'
+  '-y,x-y,z'
+  '2/3-y,1/3+x-y,1/3+z'
+  '1/3-y,2/3+x-y,2/3+z'
+  'x-y,x,-z'
+  '2/3+x-y,1/3+x,1/3-z'
+  '1/3+x-y,2/3+x,2/3-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Na   0.00000   0.00000   0.00000   1.00000
+N   0.00000   0.00000   0.50000   1.00000
+O1   0.23370   0.00000   0.50000   0.25000
+O2   0.23560   0.00000   0.50000   0.25000
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Na 0.06680 0.06680 0.07690 0.03340 0.00000 0.00000
+N 0.05240 0.05240 0.07400 0.02620 0.00000 0.00000
+O1 0.04300 0.11970 0.14030 0.05985 -0.01110 -0.02220
+O2 0.06570 0.27600 0.13430 0.13800 -0.00865 -0.01730
