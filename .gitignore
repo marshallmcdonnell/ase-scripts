@@ -89,5 +89,6 @@ ENV/
 .ropeproject
 
 # data file for lammps
-.data
-.lammps*
+config.*
+*.lammps
+dump.*
